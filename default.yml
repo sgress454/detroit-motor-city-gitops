@@ -19,4 +19,4 @@ org_settings:
   webhook_settings:
     activities_webhook:
       enable_activities_webhook: true
-      destination_url: https://webhook.site/detroit-motor-city-gitops
+      destination_url: https://webhook.site/feab5048-e561-4880-913f-13b94e89e788

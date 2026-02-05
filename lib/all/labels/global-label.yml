@@ -1,0 +1,5 @@
+- name: Uptime over 30 days
+  platform: darwin, windows
+  label_membership_type: dynamic
+  query: "SELECT 1 from uptime WHERE days > 30;"
+  description: Hosts with uptime over 30 days.

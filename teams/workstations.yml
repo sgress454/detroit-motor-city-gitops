@@ -1,5 +1,6 @@
 name: "💻 Workstations"
 policies:
+  - path: ../lib/windows/policies/all-windows-updates-installed.policies.yml
 queries:
 agent_options:
 controls:
@@ -12,3 +13,11 @@ labels:
     description: Hosts belong to the C-Suite
     label_membership_type: manual
     hosts:
+team_settings:
+  webhook_settings: 
+    failing_policies_webhook:
+      enable_failing_policies_webhook: true
+      destination_url: https://webhook.site/feab5048-e561-4880-913f-13b94e89e788
+      host_batch_size: 0
+      policy_ids:
+       - 1

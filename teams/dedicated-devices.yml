@@ -8,6 +8,7 @@ controls:
     deadline: "2026-03-31"
     minimum_version: "26.2"
   macos_settings: 
+    foo: bar
     custom_settings: 
       - path: ../lib/macos/configuration-profiles/disable-bluetooth-file-sharing.mobileconfig
         labels_exclude-any:

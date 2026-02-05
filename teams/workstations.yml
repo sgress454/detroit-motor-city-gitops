@@ -14,7 +14,7 @@ team_settings:
       destination_url: https://webhook.site/feab5048-e561-4880-913f-13b94e89e788
       host_batch_size: 0
       policy_ids:
-       - 1
+       - 3688
 labels:
   - name: C-Suite
     description: Hosts belong to the C-Suite

@@ -12,7 +12,7 @@ org_settings:
   org_info:
     org_name: Detroit Motor City GitOps
   secrets:
-    - secret: 4A23BDF4-AED2-4B24-8C21-B024C993E29A
+    - secret: "$FLEET_GLOBAL_ENROLL_SECRET"
   host_expiry_settings:
     host_expiry_enabled: true
     host_expiry_window: 30
